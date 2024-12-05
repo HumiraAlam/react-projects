@@ -18,20 +18,39 @@
     font-weight: 800;
     line-height: 102px;
 }
-.hero p{
+/* .hero{
+    
+    
+} */
+
+.hero-content-paragraph{
     font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
     width: 404px;
     color: var(--gray);
+
+}
+button{
+    font-size: 24px;
+    font-weight: 600px;
+    line-height: 29.05px;
+    padding: 6px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    height: 41px;
+    width: 150px;
+    color: white;
 }
 .hero-button{
     display: flex;
-    gap:40px;
-    color: white;
-    border: none;
-    padding: 6px 16px;
-    height: 32px;
-    border-radius: 8px;
-    cursor: pointer;
+    gap:10px;
+    
+    
+    
+    
+    
 }
 .hero-button-primary{
     background-color: var(--red);
@@ -39,4 +58,8 @@
 .hero-button-secondary{
     background-color: var(--gray);
 }
-
+.shopping-paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gray);
+}

@@ -6,7 +6,7 @@ export default function Hero() {
     <div className="hero container">
       <div className="hero-content">
         <h1>YOUR FEET DESERVE THE BEST</h1>
-        <p>
+        <p className="hero-content-paragraph">
           YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR
           SHOES.YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR
           SHOES.
@@ -16,7 +16,7 @@ export default function Hero() {
           <button className="hero-button-secondary">Category</button>
         </div>
         <div className="shopping">
-          <p>Also Available on</p>
+          <p className="shopping-paragraph">Also Available on</p>
           <div className="brand-icons">
             <img src="/Asset/shops.png" alt="shopping bag" />
           </div>
