@@ -18,7 +18,8 @@ export default function Hero() {
         <div className="shopping">
           <p className="shopping-paragraph">Also Available on</p>
           <div className="brand-icons">
-            <img src="/Asset/shops.png" alt="shopping bag" />
+            <img src="/Asset/flipkart.png" alt="flipkart" />
+            <img src="/Asset/amazon.png" alt="amazon" />
           </div>
         </div>
       </div>

@@ -18,10 +18,7 @@
     font-weight: 800;
     line-height: 102px;
 }
-/* .hero{
-    
-    
-} */
+
 
 .hero-content-paragraph{
     font-weight: 600;
@@ -33,7 +30,7 @@
 }
 button{
     font-size: 24px;
-    font-weight: 600px;
+    font-weight: 500px;
     line-height: 29.05px;
     padding: 6px 16px;
     border-radius: 8px;
@@ -45,12 +42,7 @@ button{
 }
 .hero-button{
     display: flex;
-    gap:10px;
-    
-    
-    
-    
-    
+    gap:10px;  
 }
 .hero-button-primary{
     background-color: var(--red);
@@ -59,7 +51,12 @@ button{
     background-color: var(--gray);
 }
 .shopping-paragraph{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     color: var(--gray);
+    margin-bottom: 8px;
+}
+.brand-icons{
+    display: flex;
+    gap: 16px;
 }
