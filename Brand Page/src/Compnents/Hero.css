@@ -1,0 +1,42 @@
+
+
+.hero{
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 72px);  
+    /* 72px is the height of the navbar */
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    width: 595px;
+    gap: 24px;
+   
+}
+.hero h1{
+    font-size: 108px;
+    font-weight: 800;
+    line-height: 102px;
+}
+.hero p{
+    font-weight: 600;
+    width: 404px;
+    color: var(--gray);
+}
+.hero-button{
+    display: flex;
+    gap:40px;
+    color: white;
+    border: none;
+    padding: 6px 16px;
+    height: 32px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.hero-button-primary{
+    background-color: var(--red);
+}
+.hero-button-secondary{
+    background-color: var(--gray);
+}
+

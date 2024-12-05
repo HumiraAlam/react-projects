@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    height: 72px;
+}
+.nav-items ul{
+    display: flex;
+    list-style: none;
+    gap:24px;
+     
+
+}.nav-items ul li a{
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+button{
+    background-color: var(--red);
+    color: white;
+    border: none;
+    padding: 6px 16px;
+    height: 32px;
+    border-radius: 8px;
+    cursor: pointer;
+}
