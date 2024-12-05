@@ -22,3 +22,28 @@ nav{
     background-color: var(--red);
     
 }
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px 10px;
+        
+        
+    }
+
+    .nav-items ul {
+        flex-direction: column;
+        gap: 4px;
+        margin-bottom: 10px;
+    }
+
+    .nav-items ul li a {
+        font-size: 14px;
+        font-weight: 800;
+    }
+
+    .login-button {
+        width: 10%;
+        text-align: center;
+    }
+}
